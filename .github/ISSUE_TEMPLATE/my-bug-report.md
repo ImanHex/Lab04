@@ -28,7 +28,7 @@ body:
     validations:
       required: true
   - type: dropdown
-    id: version  
+    id: version
     attributes:
       label: Version
       description: What version of our software are you running?
@@ -38,7 +38,7 @@ body:
       default: 0
     validations:
       required: true
-    - type: dropdown
+  - type: dropdown
     id: browsers
     attributes:
       label: What browsers are you seeing the problem on?
@@ -50,7 +50,7 @@ body:
         - Microsoft Edge
     validations:
       required: true
-  - type: textarea 
+  - type: textarea
     id: logs
     attributes:
       label: Relevant log output
