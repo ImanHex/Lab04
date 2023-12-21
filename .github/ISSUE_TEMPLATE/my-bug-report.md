@@ -27,7 +27,6 @@ body:
       value: "A bug happened!"
     validations:
       required: true
-
   - type: dropdown
     id: version-software
     attributes:
@@ -65,6 +64,4 @@ body:
     options:
       - label: I agree to follow this project's Code of Conduct
     required: true
-
-
 ---
