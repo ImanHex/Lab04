@@ -48,8 +48,6 @@ body:
         - Chrome
         - Safari
         - Microsoft Edge
-    validations:
-      required: true
   - type: textarea
     id: logs
     attributes:
